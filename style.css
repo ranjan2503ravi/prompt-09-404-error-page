@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener{
+    width: 60%;
+    height: 85%;
+    background-color:#f3f3f4 ;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 85%;
+    height: 85%;
+    background-color:#4D2C38 ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.753);
+}
+.box2{
+    width: 80%;
+    height: 80%;
+    background-color: crimson;
+    border-radius: 10px;
+    background-image: url(lucas-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.BOX4{
+position: absolute;
+top: 45%;
+left: 45%;
+}
+.BOX4 p{
+margin: 25px;
+}
+h1{
+    font-size: 100px;
+    color: #C1506B;
+}
+button{
+    font-size: 15px;
+    background-color: #7C93C7;
+    border-radius: 5px;
+}
